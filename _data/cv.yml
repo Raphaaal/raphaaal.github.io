@@ -6,13 +6,13 @@
     - name: Year of Birth
       value: 1993
     - name: Languages
-      value: English, French, Spanish
+      value: French, English, Spanish
 
 - title: Education
   type: time_table
   contents:
     - title: PhD - Data Science
-      institution: Sorbonne University (EURECOM), Paris, France
+      institution: EURECOM, Paris, France
       year: 2021 - Present
       #description:
       #  - Description 1.

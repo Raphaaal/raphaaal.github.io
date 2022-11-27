@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m a PhD student at Sorbonne University working jointly in the EURECOM lab and at Huawei’s Paris Research Center on Machine Learning for computer networks.
+I’m a PhD student at EURECOM working jointly at Huawei’s Paris Research Center on Machine Learning for computer networks.
  
 My background is in Machine / Deep Learning. I graduated from Dauphine University, where I was enrolled in work/study programs from BSc to MSc. I held several data positions in companies ranging from start-ups to large corporations.
 
