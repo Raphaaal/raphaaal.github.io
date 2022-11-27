@@ -1,83 +1,82 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@inproceedings{CoNEXT_CODA,
+	author = {Monterrubiano, Andrea and Azorin, Raphael and Castellano, Gabriele and Gallo, Massimo and Pontarelli, Salvatore},
+	title = {Learned Data Structures for Per-Flow Measurements},
+	year = {2022},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	doi = {https://doi.org/10.1145/3565477.3569147}
+	abstract = {This work presents a generic framework that exploits learning to improve the quality of network measurements. The main idea of this work is to reuse measures collected by the network monitoring tasks to train an ML model that learns some per-flow characteristics and improves the measurement quality re-configuring the memory according to the learned information. We applied this idea to two different monitoring tasks, we identify the main issues related to this approach and we present some preliminary results.},
+	booktitle = {Proceedings of the CoNEXT Student Workshop},
+	numpages = {2},
+	keywords = {network measurements, machine learning},
+	location = {Roma, Italy},
+	series = {CoNEXT-SW '22}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@inproceedings{10.1145/3563766.3564108,
+	author = {Houidi, Zied Ben and Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Rossi, Dario},
+	title = {Towards a Systematic Multi-Modal Representation Learning for Network Data},
+	year = {2022},
+	isbn = {9781450398992},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3563766.3564108},
+	doi = {10.1145/3563766.3564108},
+	abstract = {Learning the right representations from complex input data is the key ability of successful machine learning (ML) models. The latter are often tailored to a specific data modality. For example, recurrent neural networks (RNNs) were designed having sequential data in mind, while convolutional neural networks (CNNs) were designed to exploit spatial correlation in images. Unlike computer vision (CV) and natural language processing (NLP), each of which targets a single well-defined modality, network ML problems often have a mixture of data modalities as input. Yet, instead of exploiting such abundance, practitioners tend to rely on sub-features thereof, reducing the problem to single modality for the sake of simplicity. In this paper, we advocate for exploiting all the modalities naturally present in network data. As a first step, we observe that network data systematically exhibits a mixture of quantities (e.g., measurements), and entities (e.g., IP addresses, names, etc.). Whereas the former are generally well exploited, the latter are often underused or poorly represented (e.g., with one-hot encoding). We propose to systematically leverage language models to learn entity representations, whenever significant sequences of such entities are historically observed. Through two diverse use-cases, we show that such entity encoding can benefit and naturally augment classic quantity-based features.},
+	booktitle = {Proceedings of the 21st ACM Workshop on Hot Topics in Networks},
+	pages = {181–187},
+	numpages = {7},
+	keywords = {multimodal representation learning, network data},
+	location = {Austin, Texas},
+	series = {HotNets '22}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
+@InProceedings{10.1007/978-3-031-14135-5_6,
+	author="Azorin, Raphael
+and Grigori, Daniela
+and Belhajjame, Khalid",
+editor="Hacid, Hakim
+and Aldwairi, Monther
+and Bouadjenek, Mohamed Reda
+and Petrocchi, Marinella
+and Faci, Noura
+and Outay, Fatma
+and Beheshti, Amin
+and Thamsen, Lauritz
+and Dong, Hai",
+	title="A Reproducible Approach for Mining Business Activities from Emails for Process Analytics",
+	booktitle="Service-Oriented Computing -- ICSOC 2021 Workshops",
+	year="2022",
+	publisher="Springer International Publishing",
+	address="Cham",
+	pages="77--91",
+	abstract="Emails are more than just a means of communication, as they are a valuable source of information about undocumented business activities and processes. In this paper, we examine a solution that leverages machine learning to i) extract business activities from emails, and ii) construct business process instances, which group together these activities involved in achieving a common goal. In addition, we examine how relational learning can exploit the relationship between sub-problems (i) and (ii) to further improve their results. The research results presented in this paper are reproducible, and the recipe and data sets used are freely available to interested readers.",
+	isbn="978-3-031-14135-5"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{10.1145/3488658.3493785,
+	author = {Azorin, Rapha\"{e}l and Gallo, Massimo and Finamore, Alessandro and Filippone, Maurizio and Michiardi, Pietro and Rossi, Dario},
+	title = {Towards a Generic Deep Learning Pipeline for Traffic Measurements},
+	year = {2021},
+	isbn = {9781450391337},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3488658.3493785},
+	doi = {10.1145/3488658.3493785},
+	abstract = {Traffic measurements are key for network management as testified by the rich literature from both academia and industry. At their foundation, measurements rely on transformation functions f(x) = y, mapping input traffic data x to an output performance metric y. Yet, common practices adopt a bottom-up design (i.e., metric-based) which leads to (i) invest a lot of efforts into (re)discovering how to perform such mapping and (ii) create specialized solutions. For instance, sketches are a compact way to extract traffic properties (heavy-hitters, super-spreaders, etc.) but require analytical modeling to offer correctness guarantees and careful engineering to enable in-device deployment and network-wide measurements.},
+	booktitle = {Proceedings of the CoNEXT Student Workshop},
+	pages = {5–6},
+	numpages = {2},
+	keywords = {network measurements, representation learning, deep learning},
+	location = {Virtual Event, Germany},
+	series = {CoNEXT-SW '21}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+
