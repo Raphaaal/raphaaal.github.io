@@ -22,14 +22,14 @@
       #      - Sub-description 1.
       #      - Sub-description 2.
 
-    - title: MSc - Machine Learning
+    - title: MSc - Machine Learning [salutatorian]
       institution: PSL (Dauphine University & ENS), Paris, France
       year: 2020
       #description:
       #  - Description 1.
       #  - Description 2.
 
-    - title: BSc - Computer Science
+    - title: BSc - Computer Science [valedictorian]
       institution: Dauphine University, Paris, France
       year: 2018
       #description:
@@ -43,6 +43,10 @@
     - title: MSc - Exchange Student
       institution: Mannheim University, Mannheim, Germany
       year: 2015
+
+    - title: Preparatory Class
+      institution: Camille Guérin, Poitiers, France
+      year: 2012
 
 - title: Experience
   type: time_table
