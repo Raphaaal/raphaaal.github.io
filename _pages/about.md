@@ -18,5 +18,5 @@ I’m a PhD student at EURECOM working jointly at Huawei’s Paris Research Cent
  
 My background is in Machine / Deep Learning. I graduated from Dauphine University, where I was enrolled in work/study programs from BSc to MSc. I held several data positions in companies ranging from start-ups to large corporations.
 
-Before transitioning to Computer Science, I was in marketing and analytics. Back then, I helped build Markentive, the French leading marketing automation agency (from 5  to 40 employees).
+Before transitioning to Computer Science, I was in marketing and analytics. Back then, I helped build Markentive, the French leading marketing automation agency (from 5 to 30 employees).
 
