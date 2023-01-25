@@ -37,7 +37,8 @@
       #  - Description 2.
 
     - title: MSc - Business Management
-      institution: "Grenoble Graduate School of Business, Grenoble, France \\nMannheim University, Mannheim, Germany"
+      institution: "Grenoble Graduate School of Business, Grenoble, France\
+      \n\n Mannheim University, Mannheim, Germany"
       year: 2015
 
     #- title: MSc - Exchange Student
@@ -74,33 +75,32 @@
 #      year: 2015-now
 #      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-#- title: Skills
-#  type: nested_list
-#  contents:
-#    - title: Programming
-#      items: 
-#        - Python 
-#        - SQL
-#        - PySpark
-#	- Java (personal)
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Languages
+      items: 
+        - Python 
+        - SQL
+        - PySpark
 
-#    - title: Machine / Deep Learning
-#      items: 
-#        - PyTorch 
-#        - Scikit-Learn
-#        - PySpark
-#	- Java (personal)
-  
+    - title: Machine / Deep Learning
+      items: 
+        - PyTorch 
+        - Scikit-Learn
+        - Pandas / Numpy
+        - Pyplot / Seaborn
 
-#- title: Research Interests
-#  type: nested_list
-#  contents:
-#    - title: Topic 1.
-#      items: 
-#        - Description 1.
-#        - Description 2.
-#    - title: Topic 2.
-#      items:
-#        - Description 1.
-#        - Description 2.
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Deep Learning
+      items: 
+        - Multi-Task Learning
+        - Sequence modeling
+    - title: Machine Learning
+      items:
+        - Learned data structures
+        - Stream learning
 
