@@ -77,23 +77,23 @@
 - title: Skills
   type: time_table
   contents:
-    - title: Python, SQL, PySpark
-      institution: ""
+    - title: Software engineering
+      institution: Python, SQL, PySpark
       year: Languages
 
-    - title: PyTorch, Scikit-Learn, Pandas / Numpy, Pyplot / Seaborn
-      institution: ""
+    - title: Tools
+      institution: PyTorch, Scikit-Learn, Pandas / Numpy, Pyplot / Seaborn
       year: Libraries
 
 
 - title: Research Interests
   type: time_table
   contents:
-    - title: Multi-Task Learning, sequence modeling
-      institution: ""
-      year: Deep Learning
+    - title: Deep Learning
+      institution: Multi-Task Learning, sequence modeling
+      year: DL
 
-    - title: Learned data structures, stream learning
-      institution: ""
-      year: Machine Learning
+    - title: Machine Learning
+      institution: Learned data structures, stream learning
+      year: ML
 
