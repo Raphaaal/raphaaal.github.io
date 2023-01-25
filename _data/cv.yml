@@ -6,7 +6,7 @@
     - name: Year of Birth
       value: 1993
     - name: Languages
-      value: French, English, Spanish
+      value: French (native), English (advanced), Spanish (intermediate)
 
 - title: Education
   type: time_table
@@ -37,12 +37,12 @@
       #  - Description 2.
 
     - title: MSc - Business Management
-      institution: Grenoble Graduate School of Business, Grenoble, France
+      institution: "Grenoble Graduate School of Business, Grenoble, France \nMannheim University, Mannheim, Germany"
       year: 2015
 
-    - title: MSc - Exchange Student
-      institution: Mannheim University, Mannheim, Germany
-      year: 2015
+    #- title: MSc - Exchange Student
+    #  institution: Mannheim University, Mannheim, Germany
+    #  year: 2015
 
     - title: Preparatory Class
       institution: Camille Guérin, Poitiers, France
@@ -61,7 +61,7 @@
     
     - title: Data Miner
       institution: Marionnaud, Paris, France
-      year: 2018-2019
+      year: 2018 - 2019
 
     - title: Technical Marketing Consultant
       institution: Markentive, Paris, France
