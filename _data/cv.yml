@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD - Data Science
-      institution: EURECOM, Paris, France
+      institution: EURECOM, France
       year: 2021 - Present
       #description:
       #  - Description 1.
@@ -23,21 +23,21 @@
       #      - Sub-description 2.
 
     - title: MSc - Machine Learning [salutatorian]
-      institution: PSL (Dauphine University & ENS), Paris, France
+      institution: PSL (Dauphine University & ENS), France
       year: 2020
       #description:
       #  - Description 1.
       #  - Description 2.
 
     - title: BSc - Computer Science [valedictorian]
-      institution: Dauphine University, Paris, France
+      institution: Dauphine University, France
       year: 2018
       #description:
       #  - Description 1.
       #  - Description 2.
 
     - title: MSc - Business Management
-      institution: Grenoble Graduate School of Business, Grenoble, France and Mannheim University, Mannheim, Germany
+      institution: Grenoble Graduate School of Business, France and Mannheim University, Germany
       year: 2015
 
     #- title: MSc - Exchange Student
@@ -78,9 +78,11 @@
   type: time_table
   contents:
     - title: Python, SQL, PySpark
+      institution: ""
       year: Languages
 
     - title: PyTorch, Scikit-Learn, Pandas / Numpy, Pyplot / Seaborn
+      institution: ""
       year: Libraries
 
 
@@ -88,8 +90,10 @@
   type: time_table
   contents:
     - title: Multi-Task Learning, sequence modeling
+      institution: ""
       year: Deep Learning
 
     - title: Learned data structures, stream learning
+      institution: ""
       year: Machine Learning
 
