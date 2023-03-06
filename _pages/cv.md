@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: cv_raphael_azorin.pdf
+cv_pdf: AZORIN_Raphael_CV.pdf
 ---
