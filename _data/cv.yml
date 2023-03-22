@@ -90,10 +90,10 @@
   type: time_table
   contents:
     - title: Deep Learning
-      institution: Multi-Task Learning, sequence modeling
+      institution: multi-task learning, sequence modeling, tabular deep learning
       year: DL
 
     - title: Machine Learning
-      institution: Learned data structures, stream learning
+      institution: learned data structures, class imbalance, stream learning
       year: ML
 
