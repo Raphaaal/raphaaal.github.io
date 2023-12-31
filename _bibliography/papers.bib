@@ -1,5 +1,47 @@
----
----
+@inproceedings{CoNEXTPoster_2023,
+author = {Monterubbiano, Andrea and Azorin, Raphael and Castellano, Gabriele and Gallo, Massimo and Pontarelli, Salvatore and Rossi, Dario},
+title = {Memory-Efficient Random Forests in FPGA SmartNICs},
+year = {2023},
+isbn = {9798400704079},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3624354.3630089},
+doi = {10.1145/3624354.3630089},
+abstract = {Random Forests (RF) have been a popular Machine Learning (ML) algorithm for more than two decades. This success can be attributed to its simplicity, effectiveness and explainability. However, implementing them in a high-speed programmable data plane is not trivial. To make predictions, i.e., inference, RFs must traverse each tree from the root to the leaf by comparing the features vector at each split node. This process is particularly challenging in network devices where memory is limited, and packet processing cannot be delayed, i.e., predictions occur at line rate. Nevertheless, this implementation is crucial for incorporating recent ML advances in the network, which could benefit use cases such as scheduling, measurements, and routing [1]. Prior studies such as Planter [4] have examined the implementation of RF in network switches, mapping trees to Match-Action Tables (MAT). Another line of work focused on RF implementations optimized for FPGA, mapping tree layers to pipeline stages as done in [2]. Such approaches use different tree representations that naturally come with their strengths and weaknesses depending on the trees' sparsity, depth, and input features. In this work we (1) propose a novel representation for FPGA-based Random Forests, (2) compare it against state-of-the-art implementations in terms of memory and computation requirements, and (3) evaluate our design on a flow classification task using CAIDA traffic traces.},
+booktitle = {Companion of the 19th International Conference on Emerging Networking EXperiments and Technologies},
+pages = {55–56},
+numpages = {2},
+keywords = {FPGA, random forest, smartnic},
+location = {<conf-loc>, <city>Paris</city>, <country>France</country>, </conf-loc>},
+series = {CoNEXT 2023},
+abbr = {CoNEXT},
+website = {https://dl.acm.org/doi/10.1145/3624354.3630089},
+bibtex_show={true},
+pdf = {Monterubbiano_2023CoNEXT_Poster_fpga.pdf}
+}
+
+@article{PACMNET_2023,
+author = {Monterubbiano, Andrea and Azorin, Raphael and Castellano, Gabriele and Gallo, Massimo and Pontarelli, Salvatore and Rossi, Dario},
+title = {SPADA: A Sparse Approximate Data Structure Representation for Data Plane Per-Flow Monitoring},
+year = {2023},
+issue_date = {December 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {1},
+number = {CoNEXT3},
+url = {https://doi.org/10.1145/3629149},
+doi = {10.1145/3629149},
+abstract = {Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However, the limited amount of memory available on modern programmable devices and the large number of active flows force practitioners to monitor only the most relevant flows with approximate data structures, limiting their view of network traffic. We argue that, due to the skewed nature of network traffic, such data structures are, in practice, heavily underutilized, i.e. sparse, thus wasting a significant amount of memory.This paper proposes a Sparse Approximate Data Structure (SPADA) representation that leverages sparsity to reduce the memory footprint of per-flow monitoring systems in the data plane while preserving their original accuracy. SPADA representation can be integrated into a generic per-flow monitoring system and is suitable for several measurement use cases. We prototype SPADA in P4 for a commercial FPGA target and test our approach with a custom simulator that we make publicly available, on four real network traces over three different monitoring tasks. Our results show that SPADA achieves 2\texttimes{} to 11\texttimes{} memory footprint reduction with respect to the state-of-the-art while maintaining the same accuracy, or even improving it.},
+journal = {Proc. ACM Netw.},
+month = {nov},
+articleno = {27},
+numpages = {25},
+keywords = {data plane, per-flow monitoring, monitoring data structures},
+abbr = {PACMNET},
+website = {https://dl.acm.org/doi/10.1145/3629149s},
+bibtex_show={true},
+pdf = {Monterubbiano_2023PACMNet_spada.pdf}
+}
 
 @article{AAAI23_MTL,
 	author = {Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Rossi, Dario and Michiardi, Pietro},
@@ -17,7 +59,6 @@
 	arxiv = {2301.02873},
 	bibtex_show={true}
 }
-
 
 @article{CoNEXT22_LearnedDS,
 	author = {Monterrubiano, Andrea and Azorin, Raphael and Castellano, Gabriele and Gallo, Massimo and Pontarelli, Salvatore},
