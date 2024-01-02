@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:::mortar_board::: Enrolled at the Mediterranean Machine Learning summer school (M2L 2023)
+:mortar_board: Enrolled at the Mediterranean Machine Learning summer school in Thessaloniki (M2L 2023)

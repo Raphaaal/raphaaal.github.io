@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:round_pushpin: Volunteered at CoNEXT'23
+:round_pushpin: Volunteered at CoNEXT'23 @CNAM in Paris
