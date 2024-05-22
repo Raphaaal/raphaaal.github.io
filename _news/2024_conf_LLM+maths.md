@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:bar_chart: I attended the IHES workshop on [Mathematics for and by Large Language Models](https://indico.math.cnrs.fr/event/11933/).
+:bar_chart: Attended the IHES workshop on [Mathematics for and by Large Language Models](https://indico.math.cnrs.fr/event/11933/).
