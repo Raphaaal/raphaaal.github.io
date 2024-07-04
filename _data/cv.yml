@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD - Data Science
-      institution: EURECOM, France
+      institution: Sorbonne University (EURECOM), France
       year: 2024
       #description:
       #  - Description 1.
@@ -52,7 +52,7 @@
   type: time_table
   contents:
     - title: Data Scientist
-      institution: EURECOM & Huawei Research, Paris, France
+      institution: Huawei Research, Paris, France
       year: 2021 - 2024
 
     - title: Data Engineer
