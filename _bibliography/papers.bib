@@ -1,3 +1,23 @@
+
+@inproceedings{Transformers_2024,
+	author = {Azorin, Raphael and Ben Houidi, Zied and Gallo, Massimo and Finamore, Alessandro and Michiardi, Pietro},
+	title = {Fine-grained Attention in Hierarchical Transformers for Tabular Time-series},
+	year = {2024},
+	isbn = {},
+	publisher = {ArXiv},
+	address = {},
+	url = {https://arxiv.org/abs/2406.15327},
+	doi = {2406.15327},
+	abstract = {Tabular data is ubiquitous in many real-life systems. In particular, time-dependent tabular data, where rows are chronologically related, is typically used for recording historical events, e.g., financial transactions, healthcare records, or stock history. Recently, hierarchical variants of the attention mechanism of transformer architectures have been used to model tabular time-series data. At first, rows (or columns) are encoded separately by computing attention between their fields. Subsequently, encoded rows (or columns) are attended to one another to model the entire tabular time-series. While efficient, this approach constrains the attention granularity and limits its ability to learn patterns at the field-level across separate rows, or columns. We take a first step to address this gap by proposing Fieldy, a fine-grained hierarchical model that contextualizes fields at both the row and column levels. We compare our proposal against state of the art models on regression and classification tasks using public tabular time-series datasets. Our results show that combining row-wise and column-wise attention improves performance without increasing model size. Code and data are available at https://github.com/raphaaal/fieldy.},
+	booktitle = {},
+	keywords = {transformers, tabular time-series},
+	abbr = {SUBMITTED},
+	website = {https://dl.acm.org/doi/10.1145/3649473},
+	bibtex_show={true},
+	pdf = {Azorin_2024ArXiv_fieldy.pdf},
+	code = {https://github.com/raphaaal/fieldy}
+}
+
 @inproceedings{PACMNET_2024,
 	author = {Azorin, Raphael and Monterubbiano, Andrea and Castellano, Gabriele and Gallo, Massimo and Pontarelli, Salvatore and Rossi, Dario},
 	title = {Taming the Elephants: Affordable Flow Length Prediction in the Data Plane},
