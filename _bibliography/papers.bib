@@ -3,19 +3,17 @@
 	author = {Azorin, Raphael and Ben Houidi, Zied and Gallo, Massimo and Finamore, Alessandro and Michiardi, Pietro},
 	title = {Fine-grained Attention in Hierarchical Transformers for Tabular Time-series [Workshop]},
 	year = {2024},
-	isbn = {},
-	publisher = {ArXiv},
-	address = {},
+	booktitle = {KDD's 10th Mining and Learning from Time-Series Workshop},
 	url = {https://arxiv.org/abs/2406.15327},
-	doi = {2406.15327},
+	doi = {arXiv:2406.15327},
 	abstract = {Tabular data is ubiquitous in many real-life systems. In particular, time-dependent tabular data, where rows are chronologically related, is typically used for recording historical events, e.g., financial transactions, healthcare records, or stock history. Recently, hierarchical variants of the attention mechanism of transformer architectures have been used to model tabular time-series data. At first, rows (or columns) are encoded separately by computing attention between their fields. Subsequently, encoded rows (or columns) are attended to one another to model the entire tabular time-series. While efficient, this approach constrains the attention granularity and limits its ability to learn patterns at the field-level across separate rows, or columns. We take a first step to address this gap by proposing Fieldy, a fine-grained hierarchical model that contextualizes fields at both the row and column levels. We compare our proposal against state of the art models on regression and classification tasks using public tabular time-series datasets. Our results show that combining row-wise and column-wise attention improves performance without increasing model size. Code and data are available at https://github.com/raphaaal/fieldy.},
-	booktitle = {},
 	keywords = {transformers, tabular time-series},
 	abbr = {KDD},
 	arxiv = {2406.15327},
 	bibtex_show={true},
 	pdf = {Azorin_2024ArXiv_fieldy.pdf},
-	code = {https://github.com/raphaaal/fieldy}
+	code = {https://github.com/raphaaal/fieldy},
+	poster = {2024_Azorin_KDD_fieldy_poster.pdf}
 }
 
 @inproceedings{PACMNET_2024,
@@ -82,9 +80,8 @@
 	author = {Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Rossi, Dario and Michiardi, Pietro},
 	title = {"It's a Match" - A Benchmark of Task Affinity Scores for Joint Learning [Workshop]},
 	year = {2023},
-	publisher = {AAAI Practical Deep Learning in the Wild Workshop},
 	address = {Washington, DC, USA},
-	doi = {},
+	doi = {arXiv:2301.02873},
 	abstract = {While the promises of Multi-Task Learning (MTL) are attractive, characterizing the conditions of its success is still an open problem in Deep Learning. Some tasks may benefit from being learned together while others may be detrimental to one another. From a task perspective, grouping cooperative tasks while separating competing tasks is paramount to reap the benefits of MTL, i.e., reducing training and inference costs. Therefore, estimating task affinity for joint learning is a key endeavor. Recent work suggests that the training conditions themselves have a significant impact on the outcomes of MTL. Yet, the literature is lacking of a benchmark to assess the effectiveness of tasks affinity estimation techniques and their relation with actual MTL performance. In this paper, we take a first step in recovering this gap by (i) defining a set of affinity scores by both revisiting contributions from previous literature as well presenting new ones and (ii) benchmarking them on the Taskonomy dataset. Our empirical campaign reveals how, even in a small-scale scenario, task affinity scoring does not correlate well with actual MTL performance. Yet, some metrics can be more indicative than others.},
 	booktitle = {AAAI's 2nd International Workshop on Practical Deep Learning},
 	keywords = {multi-task learning, deep learning},
@@ -93,7 +90,8 @@
 	website = {https://practical-dl.github.io/2023/index#paper},
 	arxiv = {2301.02873},
 	bibtex_show={true},
-	pdf = {Azorin_2023_AAAI_MTL_WS.pdf}
+	pdf = {Azorin_2023_AAAI_MTL_WS.pdf},
+	poster = {2023_Azorin_AAAI_poster.pdf}
 }
 
 @inproceedings{CoNEXT22_LearnedDS,
@@ -135,7 +133,8 @@
 	abbr = {HotNets},
 	website = {https://dl.acm.org/doi/10.1145/3563766.3564108?cid=99659916706},
 	bibtex_show={true},
-	pdf = {BenHouidi_2022HotNets_systematic_multimodal_LR_network.pdf}
+	pdf = {BenHouidi_2022HotNets_systematic_multimodal_LR_network.pdf},
+	poster = {2022_Azorin_HotNets_poster.pdf}
 
 }
 
