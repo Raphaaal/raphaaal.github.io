@@ -21,10 +21,8 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-    - name: Print working directory
-      run: pwd
-    - name: List bundles
-      run: ls ./vendor/bundle
+    - name: List bundles inside ruby
+      run: ls ./vendor/bundle/ruby
     - name: Install deps
       run: |
         npm install -g mermaid.cli
