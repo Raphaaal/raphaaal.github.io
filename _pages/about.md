@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Machine Learning Engineer working in R&D, bridging the gap between research and product development. Currently, I am a Senior MLE at [Ubisoft](https://ubisoft.com/), where my focus lies in fraud detection within games and transactions.
+I am a Machine Learning Engineer working in R&D, bridging the gap between research and product development. Currently, I work at [Ubisoft](https://ubisoft.com/), where my focus lies in fraud detection within games and transactions.
  
 Prior to this, I served as a Data Scientist at [Huawei Research](https://fr.linkedin.com/company/huawei-paris-research-center), where I completed my PhD in Machine Learning for network measurements in collaboration with [Sorbonne University](https://www.sorbonne-universite.fr/en). I have experience in several data-related roles across various company sizes, from startups to large enterprises. I received my academic education at [PSL](https://psl.eu/en), where I was enrolled in work/study programs from BSc to MSc. 
 
