@@ -51,6 +51,10 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Senior Machine Learning Engineer
+      institution: Ubisoft, Paris, France
+      year: 2024 - Present
+
     - title: Data Scientist
       institution: Huawei Research, Paris, France
       year: 2021 - 2024
