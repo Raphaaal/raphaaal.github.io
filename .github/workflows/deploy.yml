@@ -21,8 +21,10 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-    - name: List bundles vendor contents
-      run: ls /home/runner/work/raphaaal.github.io/raphaaal.github.io/vendor/bundle
+    - name: Print working directory
+      run: pwd
+    - name: List bundles
+      run: ls ./vendor/bundle
     - name: Install deps
       run: |
         npm install -g mermaid.cli
