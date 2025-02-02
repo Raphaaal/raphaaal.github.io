@@ -21,8 +21,8 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-    - name: Install Jekyll and dependencies
-      run: bundle install
+    - name: List bundles vendor contents
+      run: ls -l /home/runner/work/raphaaal.github.io/raphaaal.github.io/vendor/bundle/ruby/
     - name: Install deps
       run: |
         npm install -g mermaid.cli
