@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3
+title: Dumbo
 description: Integrate a lightweight traffic classifier to enhance packet scheduling, inter-arrival times distribution estimation and flow length estimation.
-img: assets/img/dumbo.png
+img: assets/img/1.png
 redirect: https://github.com/Raphaaal/DUMBO
 importance: 1
 category: Research
