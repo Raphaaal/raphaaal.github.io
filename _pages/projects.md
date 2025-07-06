@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of personal and research projects.
+description: A growing collection of research, teaching and personal projects.
 nav: true
 nav_order: 2
-display_categories: [Research, Personal]
+display_categories: [Research, Teaching, Personal]
 horizontal: false
 ---
 
