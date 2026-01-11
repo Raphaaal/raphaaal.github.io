@@ -124,7 +124,7 @@
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.wikidata_id -%}
-        {%- capture link -%}https://www.wikidata.org/wiki/{{ site.wikidata_id }}{%- endcapture -%}
+        {%- capture link -%}https://en.wikipedia.org/wiki/{{ site.wikidata_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.strava_userid -%}
