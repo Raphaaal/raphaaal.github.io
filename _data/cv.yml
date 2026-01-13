@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD - Data Science
-      institution: Sorbonne University (EURECOM), France
+      institution: Sorbonne University
       year: 2024
       #description:
       #  - Description 1.
@@ -23,21 +23,21 @@
       #      - Sub-description 2.
 
     - title: MSc - Machine Learning [salutatorian]
-      institution: PSL (Dauphine University & ENS), France
+      institution: PSL University
       year: 2020
       #description:
       #  - Description 1.
       #  - Description 2.
 
     - title: BSc - Computer Science [valedictorian]
-      institution: Dauphine University, France
+      institution: Dauphine University
       year: 2018
       #description:
       #  - Description 1.
       #  - Description 2.
 
     - title: MSc - Business Management
-      institution: Grenoble Graduate School of Business, France and Mannheim University, Germany
+      institution: Grenoble Graduate School of Business and Mannheim University
       year: 2015
 
     #- title: MSc - Exchange Student
@@ -45,30 +45,30 @@
     #  year: 2015
 
     - title: Preparatory Class
-      institution: Camille Guérin, Poitiers, France
+      institution: Camille Guérin
       year: 2012
 
 - title: Experience
   type: time_table
   contents:
     - title: Senior Machine Learning Engineer
-      institution: Ubisoft, Paris, France
+      institution: Ubisoft
       year: 2024 - Present
 
     - title: Data Scientist
-      institution: Huawei Research, Paris, France
+      institution: Huawei Research
       year: 2021 - 2024
 
     - title: Data Engineer
-      institution: xCo Analytics (Openfield), Paris, France
+      institution: xCo Analytics (Openfield)
       year: 2019 - 2020
     
     - title: Data Miner
-      institution: Marionnaud, Paris, France
+      institution: Marionnaud
       year: 2018 - 2019
 
     - title: Technical Marketing Consultant
-      institution: Markentive, Paris, France
+      institution: Markentive
       year: 2016 - 2018
 
 #- title: Open Source Projects
