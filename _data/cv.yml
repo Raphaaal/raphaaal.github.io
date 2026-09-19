@@ -81,23 +81,31 @@
 - title: Skills
   type: time_table
   contents:
-    - title: Software engineering
-      institution: Python, SQL, PySpark
+    - title: Software and data
+      institution: Python, PySpark, SQL
       year: Languages
 
-    - title: Tools
-      institution: PyTorch, Scikit-Learn, Pandas / Numpy, Pyplot / Seaborn
+    - title: Machine Learning
+      institution: PyTorch, transformers, Scikit-Learn, Pandas, Pyplot
       year: Libraries
 
+    - title: Platform
+      institution: Azure, Docker, Databricks, MongoDB, Neo4J
+      year: Infra
 
-- title: Research Interests
+
+- title: Work Interests
   type: time_table
   contents:
-    - title: Deep Learning
-      institution: multi-task learning, sequence modeling, tabular deep learning
-      year: DL
+    - title: Modeling
+      institution: graphs neural networks, sequence modeling, tabular deep learning, multi-task learning, stream learning, class imbalance, clustering
+      year: TECHNICAL
 
-    - title: Machine Learning
-      institution: learned data structures, class imbalance, stream learning
-      year: ML
+    - title: Use cases
+      institution: threat detection, fraud detection, toxicity detection, network measurements, smart buildings, customer knowledge
+      year: BUSINESS
+
+    - title: Industries
+      institution: entertainment, software, finance, telecommunications, retail, healthcare
+      year: CLIENTS
 
